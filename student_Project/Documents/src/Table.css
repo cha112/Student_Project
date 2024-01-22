@@ -1,0 +1,40 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+.custom-table tr.hovered {
+    background-color: #e6f7ff;
+    /* Change the background color on hover */
+}
+
+.display-action {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.no-display {
+    display: none;
+}
+
+.excellent {
+    color: green;
+}
+.poor {
+    color: red;
+}
+.average {
+    color: blue;
+}

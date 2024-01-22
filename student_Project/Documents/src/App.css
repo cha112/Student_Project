@@ -1,0 +1,139 @@
+/* AddStudent.css */
+
+/* Styles for the modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+/* Styles for the table */
+.table-container {
+  margin-top: 20px;
+}
+
+
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Styles for buttons */
+.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.edit-button,
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 8px;
+  color: #007bff;
+}
+
+.delete-button {
+  color: #dc3545;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.add-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.pill {
+  border-radius: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  max-width: fit-content;
+  padding: 4px;
+}
+
+.success-tab {
+  background-color: green;
+}
+
+.fail-tab {
+  background-color: red;
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  Width: 60px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #FFBF3F;
+}
+
+.sidebar-header {
+  padding-bottom: 40px;
+  background-image: linear-gradient(#D3D6DB,#D3D6DB);
+  background-size: 90% 1px;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.sidebar-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.border-bottom-half {
+  border-bottom: 2px solid #D3D6DB;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+}
